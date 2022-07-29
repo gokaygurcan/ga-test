@@ -64,5 +64,5 @@ jobs:
 
     - id: sanity-check
       name: Sanity check
-      uses: gokaygurcan/ga-collection/.github/workflows/setup/sanity-check.yml
+      uses: gokaygurcan/ga-collection/.github/workflows/setup/sanity-check.yml@main
       secrets: inherit
