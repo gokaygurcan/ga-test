@@ -1,6 +1,9 @@
 name: GA Test
 
 on:
+  push:
+    branches:
+      - master
   pull_request:
     types:
       - closed
@@ -8,9 +11,6 @@ on:
       - reopened
       - synchronize
       - ready_for_review
-  push:
-    branches:
-      - master
   release:
     types:
       - prereleased
