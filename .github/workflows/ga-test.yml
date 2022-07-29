@@ -27,5 +27,5 @@ jobs:
     permissions:
       contents: read
       pull-requests: write
-      uses: gokaygurcan/ga-collection/.github/workflows/setup/setup.yml@main
-      secrets: inherit
+    uses: gokaygurcan/ga-collection/.github/workflows/setup.yml@main
+    secrets: inherit
