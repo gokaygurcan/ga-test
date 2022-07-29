@@ -1,0 +1,3 @@
+# add "github-actions" label to any root file changes
+github-actions:
+- '*'
